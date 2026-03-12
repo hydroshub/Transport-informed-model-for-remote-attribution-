@@ -20,45 +20,13 @@ Soil moisture exhibits coherent spatial patterns that reflect systematic influen
 - Effects vary nonlinearly across climatic regimes (R1-R4)
 
 ## 🗂️ Repository Structure
-YF-0-data-*                   Data preprocessing
-  YF-0-data-SMs.ipynb          Soil moisture processing
-  YF-0-data-esacci_filled_era5.ipynb    ESA CCI gap-filling
-  YF-0-data-somo.ml.ipynb      SoMo.ml dataset preparation
-  YF-0-data-windows_xy.ipynb   Spatial window generation
-  YF-0-data_preocess.ipynb     Main preprocessing
-
-YF-1-model-*                   Model implementations
-  YF-1-model-local_only.ipynb  Baseline local model
-  YF-1-model-spatial-context.ipynb    Non-directional model
-  YF-1-model-transport.ipynb   Transport-informed model (main)
-
-YF-2-source_influence.ipynb    Source influence analysis
-YF-3-regime_piecewise.ipynb    Climatic regime classification
-
-YF-4-plot-*                    Main figures
-  YF-4-plot-fig2.ipynb         Source-sink structure (Fig. 2)
-  YF-4-plot-fig3.ipynb         Climatic regimes (Fig. 3)
-  YF-4-plot-fig4.ipynb         Additional main figures
-
-YF-5-analysis-*                Supplementary analyses
-  YF-5-analysis-cascade.ipynb      Cascading effects
-  YF-5-analysis-cropland.ipynb     Cropland sensitivity
-  YF-5-analysis-droughts.ipynb     Drought analysis
-  YF-5-analysis-sig_asymmetry.ipynb    Asymmetry significance
-  YF-5-analysis-std_*seeds.ipynb      Robustness tests
-  YF-5-analysis-xai_uncertainty.ipynb    XAI uncertainty
-
-YF-6-plot-*                    Supplementary figures (S1-S22)
-  YF-6-plot--Fs14-esacci-missing.ipynb
-  YF-6-plot-figs10-droughts.ipynb
-  YF-6-plot-figs11-source_sink_seasons.ipynb
-  YF-6-plot-figs18-uc3d.ipynb
-  YF-6-plot-figs3-r2_laia.ipynb
-  YF-6-plot-figs4-esacci_r2.ipynb
-  YF-6-plot-figs5-wind_rainfall.ipynb
-  YF-6-plot-figs6-xais_uncertainty.ipynb
-  YF-6-plot-figs7-std_randomseeds.ipynb
-  YF-6-plot-figs9-cropland-sensitivity-ratio.ipynb
+- YF-0-data-*                   Data preprocessing
+- YF-1-model-*                   Model implementations
+- YF-2-source_influence.ipynb    Source influence analysis
+- YF-3-regime_piecewise.ipynb    Climatic regime classification
+- YF-4-plot-*                    Main figures
+- YF-5-analysis-*                Supplementary analyses
+- YF-6-plot-*                    Supplementary figures (S1-S22)
 
 
 ## 🚀 Getting Started
